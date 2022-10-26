@@ -1,0 +1,115 @@
+html{  
+  padding: 50px;  
+background-color: lightblue;
+}
+header{
+  background: linear-gradient(yellow, pink);
+  position: relative;
+  text-align: center;
+}
+body{
+  background-size:;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-size: 2rem;
+	text-align: justify;
+	font: 1em sans-serif;
+	color: gray;
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-size:200% 400% ;
+}  
+P{
+  color:white;
+}
+.button{
+  width: 100%;
+  heighT: 50px;
+  text-align: center;
+}
+.container {  
+    padding: 50px;  
+  background-color: black;
+  border-radius:20px;  
+
+}  
+input[type=date], select{
+   width: 200px;
+  height: 10px;
+  margin: 0 auto;
+  background:#f1f1f1;
+   width: 100%;
+  height: 50px;
+  text-align: center;
+}
+  
+input[type=text], input[type=password],textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus, select:focus,input[type=date]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color:yellowgreen;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+  border-radius:20px;
+  width:100px;
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}
+.footer{
+	height: 15vh;
+	background-size:contain;
+	width:100%;
+	color: #fff;
+	box-shadow: 0 -2px 5px #888;
+	position: bottom;
+	font-size: 1em;
+	line-height: 3em;
+	margin-top: auto;
+	display: flex;
+	flex-direction:row;
+	font-size: .8em;
+	justify-content:space-around;
+    margin-bottom: 1rem;
+
+}
+footer { background:pink;
+        text-align: right;
+       
+}
+
+nav ul { list-style: none;text-align:justify position: center;}
+nav ul li { display:inline; font-weight: bold;}
+nav ul li A { color: white; }
+nav ul li A:visited { color: white; }
+nav ul li A:hover { color: orange; }
+A { text-decoration: none; color: blue; }
+A:visited { color:purple; }
+A:hover { color: orange; }
+button{
+	size: large;
+	font-size: medium;
+	background-color: yellowgreen;
+  border-radius:20px ;
+}

@@ -1,0 +1,73 @@
+html{  
+  padding: 50px;  
+background-color: lightblue;
+}
+body{
+  background-size: 200% 400%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-size: 2rem;
+	text-align: center;
+  color: grey;
+	font: 1em sans-serif;
+}
+  h1 {
+    color: #88B04B;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  P {
+    color: grey;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size:20px;
+    margin: 0;
+  }
+I {
+  color: #9ABC66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left:-15px;
+}
+.card {
+  background: pink;
+  background-size: 10vw;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.footer{
+	height: 50px;
+	background-size:contain;
+	width:100%;
+	color: #fff;
+	box-shadow: 0 -2px 5px;
+	position: bottom;
+	font-size: 1em;
+	line-height: 3em;
+	margin-top: auto;
+	display: flex;
+	flex-direction:row;
+	font-size: .8em;
+	justify-content: space-around;
+}
+footer { background:pink; 
+              }
+nav ul { list-style: none; }
+nav ul li { display: inline; margin-left: 15px; font-weight: bold; }
+nav ul li A { color: white; }
+nav ul li A:visited { color: white; }
+nav ul li A:hover { color: orange; }
+A { text-decoration: none; color: blue; }
+A:visited { color:purple; }
+A:hover { color: orange; }
+button{
+	size: large;
+	font-size: medium;
+	background-color: blue;
+
+}
